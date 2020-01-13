@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="internshala.com.echomusik"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:5:5-7:35
+12        android:glEsVersion="0x00020000"
+12-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:6:9-41
+13        android:required="true" />
+13-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:7:9-32
+14
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:10:5-71
+16-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:10:22-68
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:11:5-80
+17-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:12:5-75
+18-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+19-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:13:5-81
+19-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:13:22-78
+20
+21    <application
+21-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:15:5-45:19
+22        android:allowBackup="true"
+22-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:16:9-35
+23        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+23-->[com.android.support:support-compat:28.0.0] C:\Users\Anisha\.gradle\caches\transforms-2\files-2.1\cd34fc7757aa9f7f8f24e4ce33ed3b83\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+24        android:debuggable="true"
+25        android:icon="@drawable/icon_echo"
+25-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:17:9-43
+26        android:label="@string/app_name"
+26-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:18:9-41
+27        android:roundIcon="@drawable/icon_echo"
+27-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:19:9-48
+28        android:supportsRtl="true"
+28-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:20:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:21:9-40
+31        <activity
+31-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:22:9-32:20
+32            android:name="internshala.com.echomusik.activties.SplashActivty"
+32-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:23:13-52
+33            android:label="@string/app_name"
+33-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:24:13-45
+34            android:screenOrientation="portrait"
+34-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:25:13-49
+35            android:theme="@style/AppTheme.NoActionBar" >
+35-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:26:13-56
+36            <intent-filter>
+36-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:27:13-31:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:28:17-69
+37-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:28:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:30:17-77
+39-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:30:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:33:9-36:59
+43            android:name="internshala.com.echomusik.activties.MainActivity"
+43-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:34:13-51
+44            android:screenOrientation="portrait"
+44-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:35:13-49
+45            android:theme="@style/AppTheme.NoActionBar" />
+45-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:36:13-56
+46
+47        <receiver android:name="internshala.com.echomusik.utils.CaptureBroadcast" >
+47-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:38:9-43:20
+47-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:38:19-57
+48            <intent-filter>
+48-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:39:13-42:29
+49                <action android:name="android.intent.action.PHONE_STATE" />
+49-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:40:17-76
+49-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:40:25-73
+50                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+50-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:41:17-82
+50-->C:\Android\newnew\Echo\app\src\main\AndroidManifest.xml:41:25-79
+51            </intent-filter>
+52        </receiver>
+53    </application>
+54
+55</manifest>
